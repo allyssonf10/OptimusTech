@@ -1,0 +1,41 @@
+.metricas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5em 0;
+    justify-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.resultados{
+    width: 70%;
+}
+
+.resultados-numeros{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-central);
+}
+
+.resultados-titulo{
+    font-size: 18px;
+    padding: 0.5em 0;
+    font-weight: 500;
+}
+
+.resultados-texto{
+    color: var(--cinza);
+}
+
+@media screen and (max-width:700px) {
+    .metricas{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .resultados{
+        padding: 1em 0;
+    }
+}
