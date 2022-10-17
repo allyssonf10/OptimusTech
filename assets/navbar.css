@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 
-.navbar-lista, .navbar-logo{
+.links, .navbar-logo, .buttons{
     display: flex;
     align-items: center;
     padding: 2em 7em;
@@ -15,23 +15,30 @@
     font-size: 18px;
 }
 
-.navbar-lista-link,
+.links{
+    margin-right: auto;
+}
+
 a{
-    list-style-type: none;
     text-decoration: none;
     margin: 0 0.6em;
     color: var(--cinza);
     font-size: 16px;
 }
 
-.entrada-1{
-    margin-right: auto;
+button{
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--cinza);
+    font-size: 16px;
 }
 
-.cadastro{
+#signUp{
     background: var(--vermelho-central);
-    padding: 0.6em 1em;
-    color: var(--branco);
-    border-radius: 8px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: var(--branco);
 }
