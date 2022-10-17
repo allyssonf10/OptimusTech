@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-lista, .navbar-logo{
+    display: flex;
+    align-items: center;
+    padding: 2em 7em;
+}
+
+.logo-titulo{
+    margin: 0 15px;
+    color: var(--cinza-escuro);
+    font-size: 18px;
+}
+
+.navbar-lista-link,
+a{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 0.6em;
+    color: var(--cinza);
+    font-size: 16px;
+}
+
+.entrada-1{
+    margin-right: auto;
+}
+
+.cadastro{
+    background: var(--vermelho-central);
+    padding: 0.6em 1em;
+    color: var(--branco);
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
