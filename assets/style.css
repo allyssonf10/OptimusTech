@@ -1,9 +1,11 @@
 @import url(./navbar.css);
 @import url(./cabecalho.css);
+@import url(./metricas.css);
 
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root{

@@ -1,10 +1,6 @@
-.navbar{
+nav{
     display: flex;
-    justify-content: space-between;
-}
-
-.links, .navbar-logo, .buttons{
-    display: flex;
+    justify-content: space-around;
     align-items: center;
     padding: 2em 7em;
 }
@@ -16,7 +12,7 @@
 }
 
 .links{
-    margin-right: auto;
+    margin-right: 25%;
 }
 
 a{
@@ -41,4 +37,11 @@ button{
     background: var(--vermelho-central);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     color: var(--branco);
+}
+
+@media screen and (max-width:425px) {
+   .links{
+        display: none;
+    }
+    
 }
