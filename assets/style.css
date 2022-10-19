@@ -1,6 +1,7 @@
 @import url(./navbar.css);
 @import url(./cabecalho.css);
 @import url(./metricas.css);
+@import url(./vagas.css);
 
 *{
     padding: 0;
