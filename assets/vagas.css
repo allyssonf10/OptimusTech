@@ -1,35 +1,44 @@
 .vagas{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    padding-top: 4em;
-    padding-bottom: 2em;
+    width: 50%;
+    margin: auto;
+}
+
+.designer{
+    padding: 0.7em 0;
+}
+
+.vagas h2{
+    font: 20px;
+    font-weight: 500;
+    padding-bottom: 0.7em;
 }
 
 .vagas-caixa{
-    width: 45%;
+    border: 1px solid var(--cinza);
+    margin: 1em 0;
+    padding: 0.5em;
+    border-radius: 15px;
 }
 
-.vagas-info{
-    color: var(--vermelho-central);
-    font-weight: 600;
-    font-size: 14px;
+.vagas-caixa h3{
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.vagas-titulo{
-    font-size: 36px;
-    font-weight: 600;
-    color: var(--preto);
-    padding: 0.7em 0 0.5em;
-}
-
-.vagas-texto{
-    color: var(--cinza);
-    font-size: 20px;
-}
-
-.img-reuniao{
+ul{
     display: flex;
-    justify-content: center;
-    padding: 2em 0 4em;
+}
+
+li{
+    list-style-type: none;
+    padding: 1em 0 0.5em;
+    font-weight: 500;
+    color: var(--cinza);
+}
+
+.salario{
+    margin-left: 15px;
 }
