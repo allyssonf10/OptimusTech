@@ -68,8 +68,8 @@ button{
 @media screen and (max-width:425px){
    
     .rodape-cadastro{
-        width: 70%;
-    flex-direction: column;
+        width: 85%;
+        flex-direction: column;
     }
 
     .cadastro{
@@ -78,9 +78,9 @@ button{
 
     button{
         margin-left: 0;
-    padding: 0.6em;
-    width: 49%;
-    margin-top: 7px;
-    align-self: center;
+        padding: 0.6em;
+        width: 49%;
+        margin-top: 7px;
+        align-self: center;
     }
 }
