@@ -1,0 +1,86 @@
+.rodape{
+    background: var(--caixa-rodape);
+    padding: 7em 0;
+}
+
+.rodape-caixa{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-caixa h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape-caixa p{
+    padding: 2em 0;
+    color: var(--cinza);
+    font-size: 20px;
+}
+
+.rodape-cadastro{
+    display: flex;
+    width: 55%;
+}
+
+.cadastro{
+    width: 73%;
+    padding: 1em 0;
+    border-radius: 10px;
+    border: 1px solid var(--cinza);
+}
+
+.cadastro::placeholder{
+    padding: 1em;
+    color: var(--cinza);
+}
+
+button{
+    background: var(--vermelho-central);
+    margin-left: 1em;
+    color: var(--branco);
+    border-radius: 10px;
+    padding: 0 1em;
+    cursor: pointer;
+}
+  
+.rodape-caixa span{
+    padding-top: 2em;
+    color: var(--cinza);
+}
+
+@media screen and (max-width:1024px) {
+
+    .rodape-caixa{
+        text-align: center;
+        width: 63%;
+    }
+
+    .rodape-cadastro{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:425px){
+   
+    .rodape-cadastro{
+        width: 70%;
+    flex-direction: column;
+    }
+
+    .cadastro{
+        width: 100%;
+    }
+
+    button{
+        margin-left: 0;
+    padding: 0.6em;
+    width: 49%;
+    margin-top: 7px;
+    align-self: center;
+    }
+}
