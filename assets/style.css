@@ -3,6 +3,8 @@
 @import url(./metricas.css);
 @import url(./talentos.css);
 @import url(./vagas.css);
+@import url(./depoimentos.css);
+@import url(./roda-pé.css);
 
 *{
     padding: 0;
@@ -14,8 +16,11 @@
     --vermelho-central:#8E2424;
     --preto:#101828 ;
     --cinza: #667085;
+    --cinza-opaco: #66708520;
     --cinza-escuro: #3A404E;
     --branco: #ffffff;
+    --caixa-depoimentos: #C3191910;
+    --caixa-rodape: #F9FAFB;
 }
 
 body{

@@ -37,3 +37,14 @@
 .img-reuniao img{
     width: auto;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .talentos-caixa{
+        width: 50%;
+    }
+
+    .img-reuniao img{
+    width: 75%;
+}
+}

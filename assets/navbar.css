@@ -22,7 +22,7 @@ a{
     font-size: 16px;
 }
 
-button{
+.buttons button{
     padding: 0.8rem 1rem;
     cursor: pointer;
     border: none;
@@ -39,9 +39,28 @@ button{
     color: var(--branco);
 }
 
+@media screen and (max-width:1024px) {
+    nav{
+        padding: 2em 1em;
+    }
+    .links{
+        margin-right: 0;
+    }
+    
+}
+
 @media screen and (max-width:425px) {
    .links{
         display: none;
+    }
+
+    .navbar-logo{
+        margin-left: 18px;
+    }
+
+    .buttons{
+        width: 100%;
+        display: flex;
     }
     
 }

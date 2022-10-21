@@ -26,3 +26,20 @@
     color: var(--cinza);
     font-size: 20px;
 }
+
+@media screen and (max-width:768px) {
+    .cabecalho-caixa{
+        width: 64%;
+    }
+    
+}
+
+@media screen and (max-width:425px){
+    .cabecalho-titulo{
+        font-size: 36px;
+    }
+
+    .cabecalho-texto{
+        font-size: 18px;
+    }
+}

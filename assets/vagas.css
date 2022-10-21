@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .vagas-caixa{
-    border: 1px solid var(--cinza);
+    border: 1px solid var(--cinza-opaco);
     margin: 1em 0;
     padding: 0.5em;
     border-radius: 15px;
