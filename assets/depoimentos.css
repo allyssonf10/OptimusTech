@@ -1,0 +1,51 @@
+.depoimentos{
+    background: var(--caixa-depoimentos);
+    width: 80%;
+    margin: 7em auto;
+    padding: 3em 0;
+}
+
+.depoimentos-caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.depoimentos-titulo{
+    color: var(--vermelho-central);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.7em 0;
+}
+
+.depoimentos-texto{
+    font-size: 36px;
+}
+
+.depoimentos-caixa img{
+    margin: 1em 0;
+}
+
+.depoimentos-caixa p{
+    font-weight: 500;
+    padding-bottom: 0.7em;
+}
+
+.depoimentos-profissao{
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+@media screen and (max-width:425px) {
+    .depoimentos-titulo{
+        font-size: 12px;
+    }
+
+    .depoimentos-texto{
+        font-size: 31px;
+    }
+    
+}
